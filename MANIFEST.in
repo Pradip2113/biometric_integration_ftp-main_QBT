@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include biometric_integration_ftp *.css
+recursive-include biometric_integration_ftp *.csv
+recursive-include biometric_integration_ftp *.html
+recursive-include biometric_integration_ftp *.ico
+recursive-include biometric_integration_ftp *.js
+recursive-include biometric_integration_ftp *.json
+recursive-include biometric_integration_ftp *.md
+recursive-include biometric_integration_ftp *.png
+recursive-include biometric_integration_ftp *.py
+recursive-include biometric_integration_ftp *.svg
+recursive-include biometric_integration_ftp *.txt
+recursive-exclude biometric_integration_ftp *.pyc
